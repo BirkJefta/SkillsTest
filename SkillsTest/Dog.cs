@@ -31,7 +31,5 @@ namespace SkillsTest {
         {
             return $"ID: {ID}, Name: {Name}, Race: {Race}, Birthyear: {YearOfBirth}";
         }
-
-
     }
 }

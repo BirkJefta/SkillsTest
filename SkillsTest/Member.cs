@@ -168,7 +168,6 @@ namespace SkillsTest {
             }
             return ok;
         }
-        
         public double VenueRental (DateTime date)
         {
             double pris = 0;

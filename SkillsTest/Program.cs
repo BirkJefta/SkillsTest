@@ -131,7 +131,7 @@ namespace SkillsTest {
             Console.WriteLine(member5.VenueRental(new DateTime(2024, 06, 13)));
 
 
-
+            //opgave 11: (manglede tid til at lave denne)
         }
     }
 }
