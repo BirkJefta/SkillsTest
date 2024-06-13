@@ -116,6 +116,7 @@ namespace SkillsTest {
             //Opgave 8: (sprunget over pga af manglende tid)
 
 
+
             //opgave 9: 
             //Lav et par user stories. 
             //kan ses på word dokumentet
