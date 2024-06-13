@@ -123,9 +123,11 @@ namespace SkillsTest {
             //Opgave 10
             //Implementér dine egne user stories
             //User story 1: Leje lokale på en lørdag
-            Console.WriteLine(member5.VenueRental(new DateTime(2024, 6, 15)));
+            Console.WriteLine("Leje af lokale en lørdag");
+            Console.WriteLine(member5.VenueRental(new DateTime(2024, 06, 15)));
             //User story 3, Leje lokale en hverdag:
-            Console.WriteLine(member5.VenueRental(new DateTime(2024, 6, 13)));
+            Console.WriteLine("Leje af lokale en hverdag");
+            Console.WriteLine(member5.VenueRental(new DateTime(2024, 06, 13)));
 
 
 

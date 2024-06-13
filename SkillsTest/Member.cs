@@ -171,19 +171,21 @@ namespace SkillsTest {
         
         public double VenueRental (DateTime date)
         {
-            double pris = 
+            double pris = 0;
+            double hverdagspris = 100;
+            double weekendpris = hverdagspris + (hverdagspris * 50 / 100);
             //User story 3, leje af lokale en hverdag:
             //hvis ugedagen ikke er søndag eller lørdag koster det 100 kr:
-            if (date.DayOfWeek != DayOfWeek.Sunday || date.DayOfWeek != DayOfWeek.Saturday) 
+            if (date.DayOfWeek != DayOfWeek.Sunday && date.DayOfWeek != DayOfWeek.Saturday) 
             {
-                
+                pris = hverdagspris;
             }
             else
             {
-               
+                pris = weekendpris;
 
             }
-            
+            return pris;
         }
     }
 }
